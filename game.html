@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="main">
+		<div class="end">
+			<div class="container">
+				<p id="mute">mute music</p>
+				<h1></h1>
+				<div class="box">
+					<div class="bar red"></div>
+					<div class="bar green"></div>
+					<div class="bar blue"></div>
+					<div class="bar yellow"></div>
+					<div class="bar purple"></div>
+					<div class="bar orange"></div>
+					<div class="bar red"></div>
+					<div class="bar blue"></div>
+					<div class="bar purple"></div>
+					<div class="bar green"></div>
+				</div>
+			</div>
+			<form>
+				<button>Restart</button>
+			</form>
+		</div>
+	</div>
+	<audio id="music" onended="end()" >
+		<source src="music/winner.mp3">
+	</audio>
+	<audio id="music2" loop >
+		<source src="music/race.mp3">
+	</audio>
+
+
+<script src="jquery-3.4.1.js"></script>
+<script src="2.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

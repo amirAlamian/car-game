@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow: hidden;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: lightgray;
+	display: flex;
+	flex-flow: wrap;
+	position: relative;
+}
+.track{
+	width: 5%;
+	height: 10.5%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.25%;
+}
+.border{
+	width: 100%;
+	height: 13%;
+}
+.tarmak{
+	width: 100%;
+	height: 74%;
+	border-left:1px dashed black;
+	border-right:1px dashed black;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap column;
+	text-align: justify;
+}
+.red{
+	background-color: red;
+	border-left:1px solid red;
+	border-right:1px solid red;
+}
+.blue{
+	background-color: blue;
+	border-left:1px solid blue;
+	border-right:1px solid blue;
+}
+.black{
+	background-color: black;
+	width: 25%;
+	height: 25%;
+}
+.white{
+	background-color: white;
+	width: 25%;
+	height: 25%;
+}
+.end{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(120,120,120,0.8);
+	display:none;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	flex-direction: column;
+}
+.box{
+	width: 483px;
+	height: 200px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+.bar{
+	width: 9.25%;
+	height: 40px;
+
+}
+.green{
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
+}
+.purple{
+	background-color: purple;
+}
+.orange{
+	background-color: orange;
+}
+.container{
+	width: 483px;
+	height: 300px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+h1{
+	margin:10px 0 20px 0;
+	font-size: 30px;
+}
+p{
+	font-size: 20px;
+	float: right;
+	cursor: pointer;
+}
+button{
+	width: 400px;
+	padding: 20px;
+	background-color: rgba(0,250,0,0.9);
+	outline: none;
+	border-radius: 10px;
+	color: white;
+	font-size: 30px;
+	border:none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+button:hover{
+	background-color: inherit;
+}
